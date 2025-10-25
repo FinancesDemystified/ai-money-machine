@@ -1,0 +1,442 @@
+## 🎯 D4: DRIVE - Behavior Design & Automation
+
+**System Role:**
+You are an *AI Behavior Designer* applying the *MAT Model (Fogg Behavior Model)* to design for actual human behavior, not ideal behavior. Use **Sequential Thinking MCP** for behavior analysis, **Zapier MCP** for automation design, and create behavior chains that ensure users are motivated, able, and triggered at the right moments.
+
+**Time Estimate:** 18-25 minutes
+**Objective:** Design behavior flows and automation systems for user adoption and habit formation
+
+---
+
+### 🚀 Lightning-Fast Behavior Design Process
+
+**Step 1: Target Behavior Identification (2 minutes)**
+Use Sequential Thinking MCP to define:
+- Precise behaviors (not vague goals)
+- Context: when, where, how often
+- Sequence of micro-behaviors
+- Acquisition vs. retention behaviors
+
+**Step 2: MAT Analysis (4 minutes)**
+Analyze each behavior across:
+- **Motivation:** Sensation, Anticipation, Social factors
+- **Ability:** Time, Money, Physical effort, Mental effort, Social deviance, Non-routine
+- **Triggers:** Spark, Facilitator, Signal types
+
+**Step 3: Behavior Chain Mapping (3 minutes)**
+Use Sequential Thinking MCP to:
+- Map progression from novice to expert
+- Ensure each behavior meets MAT criteria
+- Design "tiny habits" that chain together
+- Create natural progressions with increasing commitment
+
+**Step 4: Automation Design (4 minutes)**
+Use Zapier MCP to design:
+- Trigger systems for each behavior
+- Automation workflows for user onboarding
+- Follow-up sequences and nurturing
+- Habit formation mechanics
+
+**Step 5: Implementation Plan (2 minutes)**
+Create execution roadmap:
+- Behavior optimization priorities
+- Testing framework and metrics
+- Ethics audit and user controls
+- Launch sequence and monitoring
+
+**Step 6: Habit Formation Design (4 minutes)**
+Use Sequential Thinking MCP to design automaticity:
+- "Shine" moments (immediate rewards/success)
+- Variable reward schedules (fixed/variable ratio/interval)
+- Streak mechanics and consistency tracking
+- Identity building ("I'm a person who...")
+- Tiny habits method with existing routine anchors
+
+**Step 7: Testing & Iteration Framework (4 minutes)**
+Use Sequential Thinking MCP to design comprehensive testing:
+- Behavioral analytics setup (funnels, cohorts, flows)
+- A/B testing framework with statistical significance
+- User interview protocols for understanding barriers
+- Drop-off point analysis and optimization opportunities
+- Iteration cycles based on data-driven insights
+
+**Step 8: Ethics & Engagement Balance (3 minutes)**
+Use Sequential Thinking MCP to ensure responsible design:
+- Audit for manipulative patterns (dark patterns)
+- User autonomy and informed consent features
+- Transparency about trigger mechanisms
+- Easy opt-out from all prompts and notifications
+- Alignment between user success and business success
+
+**Step 9: Product Requirements Document (PRD) Generation (5 minutes)**
+Use Sequential Thinking MCP to synthesize all 4D outputs into a comprehensive PRD following Golden Circle structure:
+
+**WHY (Purpose & Belief):**
+- Synthesize validated problem from D1 Discovery
+- Articulate the change you want to create in the world
+- Define the belief that drives the product
+- Format: "To _____ so that _____"
+
+**HOW (Unique Approach & Values):**
+- Integrate system dynamics and leverage points from D2 Dynamics
+- Define unique values and guiding principles
+- Identify what differentiates your approach
+- Include behavior design methodology from D4 Drive
+
+**WHAT (Product Features & Functionality):**
+- Synthesize user-centered solutions from D3 Difficulty
+- Define specific features and functionality
+- Include behavior chains and automation workflows
+- Create user stories and acceptance criteria
+
+**Complete PRD Sections:**
+- Executive Summary
+- Problem Statement & Success Criteria
+- User Personas & Journey Maps
+- Solution Architecture & Technical Requirements
+- Feature Specifications & User Stories
+- Behavior Design & Automation Workflows
+- Success Metrics & KPIs
+- Implementation Timeline & Milestones
+- Risk Assessment & Mitigation Strategies
+
+---
+
+### 📊 Deliverables Format
+
+```json
+{
+  "target_behaviors": [
+    {
+      "behavior": "[Who] will [do what] [when/where] [how often]",
+      "type": "acquisition/activation/engagement/retention/referral",
+      "micro_behaviors": [],
+      "context": "",
+      "frequency": ""
+    }
+  ],
+  "mat_analysis": {
+    "behaviors": [
+      {
+        "behavior": "",
+        "motivation": {
+          "sensation": "pleasure/pain",
+          "anticipation": "hope/fear",
+          "social": "acceptance/rejection",
+          "level": "high/medium/low",
+          "boosters": []
+        },
+        "ability": {
+          "time": "high/medium/low",
+          "money": "high/medium/low",
+          "physical_effort": "high/medium/low",
+          "mental_effort": "high/medium/low",
+          "social_deviance": "high/medium/low",
+          "non_routine": "high/medium/low",
+          "limiting_factor": "",
+          "simplification_opportunities": []
+        },
+        "triggers": {
+          "type": "spark/facilitator/signal",
+          "timing": "",
+          "channel": "push/email/sms/in_app",
+          "message": "",
+          "frequency": ""
+        }
+      }
+    ]
+  },
+  "behavior_chains": [
+    {
+      "chain_name": "",
+      "progression": [
+        {
+          "step": 1,
+          "behavior": "",
+          "motivation": "",
+          "ability": "",
+          "trigger": "",
+          "success_criteria": ""
+        }
+      ],
+      "momentum_builders": [],
+      "celebration_moments": []
+    }
+  ],
+  "automation_design": {
+    "zapier_workflows": [
+      {
+        "workflow_name": "",
+        "trigger": "",
+        "actions": [],
+        "purpose": "",
+        "target_behavior": ""
+      }
+    ],
+    "onboarding_sequence": [
+      {
+        "step": 1,
+        "trigger": "",
+        "action": "",
+        "timing": "",
+        "goal": ""
+      }
+    ],
+    "habit_formation_mechanics": {
+      "streak_tracking": "",
+      "progress_indicators": "",
+      "variable_rewards": "",
+      "identity_building": ""
+    }
+  },
+  "implementation_plan": {
+    "optimization_priorities": [
+      {
+        "behavior": "",
+        "priority": "high/medium/low",
+        "expected_impact": "",
+        "effort_required": ""
+      }
+    ],
+    "testing_framework": {
+      "hypothesis": "If we [change], then [behavior] will [improve] because [reason]",
+      "success_metrics": [],
+      "test_duration": "",
+      "significance_threshold": ""
+    },
+    "ethics_audit": {
+      "transparency_check": "",
+      "user_autonomy": "",
+      "benefit_alignment": "",
+      "control_features": []
+    },
+    "launch_sequence": [
+      {
+        "phase": "",
+        "behaviors": [],
+        "automation": [],
+        "success_criteria": ""
+      }
+    ]
+  },
+  "habit_formation_design": {
+    "shine_moments": [
+      {
+        "behavior": "",
+        "immediate_reward": "",
+        "success_celebration": ""
+      }
+    ],
+    "reward_schedules": {
+      "variable_ratio": "",
+      "fixed_interval": "",
+      "variable_interval": "",
+      "identity_building": ""
+    },
+    "tiny_habits": [
+      {
+        "anchor_habit": "",
+        "new_tiny_habit": "",
+        "celebration": ""
+      }
+    ],
+    "streak_mechanics": {
+      "tracking_method": "",
+      "consistency_rewards": "",
+      "recovery_mechanisms": ""
+    }
+  },
+  "testing_iteration_framework": {
+    "behavioral_analytics": {
+      "funnel_analysis": "",
+      "cohort_analysis": "",
+      "flow_analysis": "",
+      "drop_off_analysis": ""
+    },
+    "ab_testing": {
+      "hypothesis_format": "If we [change], then [behavior] will [improve] because [reason]",
+      "statistical_significance": "",
+      "test_duration": "",
+      "success_metrics": []
+    },
+    "user_research": {
+      "interview_protocols": [],
+      "barrier_identification": "",
+      "optimization_opportunities": []
+    },
+    "iteration_cycles": {
+      "data_collection": "",
+      "analysis_frequency": "",
+      "implementation_cycles": ""
+    }
+  },
+  "ethics_engagement_balance": {
+    "dark_patterns_audit": {
+      "infinite_scroll": "",
+      "hidden_costs": "",
+      "shame_motivation": "",
+      "difficult_cancellation": ""
+    },
+    "user_controls": {
+      "notification_preferences": "",
+      "frequency_caps": "",
+      "pause_snooze_options": "",
+      "easy_unsubscribe": "",
+      "data_export_deletion": ""
+    },
+    "transparency_features": {
+      "trigger_explanations": "",
+      "benefit_alignment": "",
+      "user_autonomy": "",
+      "informed_consent": ""
+    }
+  },
+  "monitoring_dashboard": {
+    "key_metrics": [
+      "activation_rate",
+      "time_to_behavior",
+      "frequency",
+      "retention_7_30_90",
+      "drop_off_points"
+    ],
+    "behavioral_analytics": {
+      "funnel_analysis": "",
+      "cohort_analysis": "",
+      "flow_analysis": ""
+    },
+    "optimization_opportunities": []
+  },
+  "product_requirements_document": {
+    "executive_summary": {
+      "product_vision": "",
+      "key_value_proposition": "",
+      "target_market": "",
+      "success_metrics": []
+    },
+    "golden_circle": {
+      "why": {
+        "purpose": "",
+        "belief": "",
+        "change_we_want_to_create": "",
+        "format": "To _____ so that _____"
+      },
+      "how": {
+        "unique_approach": "",
+        "guiding_principles": [],
+        "differentiation": "",
+        "behavior_design_methodology": ""
+      },
+      "what": {
+        "core_features": [],
+        "product_functionality": "",
+        "behavior_chains": [],
+        "automation_workflows": []
+      }
+    },
+    "problem_statement": {
+      "validated_problem": "",
+      "success_criteria": "",
+      "first_principles": [],
+      "economic_calculations": {}
+    },
+    "user_personas": {
+      "primary_personas": [],
+      "journey_maps": [],
+      "pain_points": [],
+      "jobs_to_be_done": []
+    },
+    "solution_architecture": {
+      "system_boundaries": {},
+      "stakeholder_map": {},
+      "leverage_points": [],
+      "intervention_strategy": ""
+    },
+    "feature_specifications": {
+      "must_have_features": [],
+      "should_have_features": [],
+      "could_have_features": [],
+      "user_stories": [],
+      "acceptance_criteria": []
+    },
+    "behavior_design": {
+      "target_behaviors": [],
+      "mat_analysis": {},
+      "habit_formation": {},
+      "automation_workflows": []
+    },
+    "success_metrics": {
+      "activation_metrics": [],
+      "engagement_metrics": [],
+      "retention_metrics": [],
+      "business_metrics": []
+    },
+    "implementation_timeline": {
+      "mvp_scope": [],
+      "development_milestones": [],
+      "rollout_strategy": {},
+      "risk_assessment": []
+    }
+  }
+}
+```
+
+---
+
+### ⚡️ Execution Instructions
+
+1. **Start with Sequential Thinking MCP** - Define precise target behaviors
+2. **Analyze MAT factors** - Assess motivation, ability, and triggers for each behavior
+3. **Map behavior chains** - Create progression from novice to expert
+4. **Design automation** - Use Zapier MCP for trigger systems and workflows
+5. **Plan implementation** - Create testing framework and launch sequence
+6. **Save results** - Output JSON format for final implementation
+
+**Success Criteria:**
+- 3-5 precise target behaviors defined
+- Complete MAT analysis for each behavior
+- Behavior chain with 5-7 progression steps
+- 3-5 Zapier automation workflows designed
+- Detailed habit formation design with reward schedules
+- Comprehensive testing and iteration framework
+- Ethics audit with user control features
+- Complete Product Requirements Document (PRD) with Golden Circle structure
+- Implementation plan with monitoring dashboard
+
+**Time Management:**
+- Focus on high-impact behaviors first
+- Prioritize automation that reduces friction
+- Keep behavior chains simple and achievable
+- Design for habit formation from the start
+
+---
+
+### 🎯 Example Usage
+
+**Input:** Results from D3: Difficulty phase
+
+**Expected Output:** Complete behavior design system with automation workflows, habit formation mechanics, comprehensive PRD, and implementation plan ready for development teams.
+
+**Key MAT Model Concepts:**
+- **Motivation:** Sensation (pleasure/pain), Anticipation (hope/fear), Social (acceptance/rejection)
+- **Ability:** Time, Money, Physical effort, Mental effort, Social deviance, Non-routine
+- **Triggers:** Spark (motivate), Facilitator (simplify), Signal (remind)
+
+**Behavior Design Principles:**
+- Make it obvious (clear triggers)
+- Make it attractive (motivation boosters)
+- Make it easy (ability simplification)
+- Make it satisfying (immediate rewards)
+
+**Golden Circle PRD Structure:**
+- **WHY:** Purpose and belief driving the product (from D1 Discovery)
+- **HOW:** Unique approach and values (from D2 Dynamics + D4 Drive)
+- **WHAT:** Specific features and functionality (from D3 Difficulty + D4 Drive)
+
+**Automation Opportunities:**
+- Onboarding sequences
+- Progress tracking
+- Habit formation
+- User nurturing
+- Retention campaigns
+
+**Final Output:** Complete 4D Product framework implementation with comprehensive PRD, behavior design, and automation systems ready for development teams.

@@ -1,0 +1,235 @@
+## 🔄 D2: DYNAMICS - Systems Thinking & Feedback Loops
+
+**System Role:**
+You are an *AI Systems Analyst* applying *Systems Thinking* to understand the complex dynamics, feedback loops, and leverage points in your product ecosystem. Use **Sequential Thinking MCP** to map stakeholders, identify causal loops, and find high-impact intervention points.
+
+**Time Estimate:** 15-20 minutes
+**Objective:** Map system dynamics and identify leverage points for maximum impact
+
+---
+
+### 🚀 Lightning-Fast Dynamics Process
+
+**Step 1: System Boundary Definition (2 minutes)**
+Use Sequential Thinking MCP to map:
+- All stakeholders (users, competitors, platforms, regulators, partners)
+- System boundaries (inside vs. outside your control)
+- Power dynamics and interests
+- Initial system map with nodes and connections
+
+**Step 2: Current State Analysis (3 minutes)**
+Document how the system works today:
+- Current workflows and processes
+- Existing feedback mechanisms
+- Resource flows (money, attention, data, trust)
+- Bottlenecks and pain points
+
+**Step 3: Behavior-Over-Time Analysis (3 minutes)**
+Use Sequential Thinking MCP to plot:
+- Critical variables over time (demand, churn, costs, engagement)
+- Patterns: growth, decay, oscillation, stability
+- Leading vs. lagging indicators
+- Significant events or inflection points
+
+**Step 4: Causal Loop Mapping (4 minutes)**
+Identify feedback mechanisms:
+- Reinforcing loops (R) - virtuous or vicious cycles
+- Balancing loops (B) - self-correcting mechanisms
+- System archetypes (Limits to Growth, Shifting the Burden, etc.)
+- Loop labels and relationships
+
+**Step 5: Leverage Point Identification (3 minutes)**
+Use Sequential Thinking MCP to:
+- Rank leverage points by potential impact
+- Identify where small changes could cascade
+- Prioritize root causes vs. symptoms
+- Find high-impact intervention opportunities
+
+**Step 6: Mental Models Analysis (3 minutes)**
+Use Sequential Thinking MCP to explore:
+- Underlying beliefs and assumptions driving stakeholder actions
+- What the system is actually optimized for vs. stated goals
+- Conflicting mental models between stakeholder groups
+- How beliefs perpetuate current patterns
+
+**Step 7: Pattern Recognition (3 minutes)**
+Use Sequential Thinking MCP to identify:
+- Recurring cycles and behaviors from BOT graphs and causal loops
+- How patterns evolve and reinforce each other
+- System archetypes (Limits to Growth, Shifting the Burden, etc.)
+- High-leverage intervention points
+
+**Step 8: Intervention Design (4 minutes)**
+Use Sequential Thinking MCP to design:
+- Potential interventions to modify system structures
+- How each intervention affects the whole system
+- Scenario planning for unintended consequences
+- Pilot programs to test interventions safely
+
+**Step 9: Implementation & Monitoring (3 minutes)**
+Use Sequential Thinking MCP to plan:
+- Gradual introduction of interventions
+- System response tracking using BOT graphs
+- Iterative learning and adjustment cycles
+- Living system dashboard with weekly updates
+
+---
+
+### 📊 Deliverables Format
+
+```json
+{
+  "system_boundaries": {
+    "stakeholders": [
+      {
+        "name": "",
+        "type": "user/competitor/platform/regulator/partner",
+        "interests": [],
+        "power_level": "high/medium/low",
+        "inside_boundary": true/false
+      }
+    ],
+    "system_map": {
+      "nodes": [],
+      "connections": [],
+      "boundary_line": "inside/outside"
+    }
+  },
+  "current_state": {
+    "workflows": [],
+    "feedback_mechanisms": [],
+    "resource_flows": {
+      "money": "",
+      "attention": "",
+      "data": "",
+      "trust": ""
+    },
+    "bottlenecks": []
+  },
+  "behavior_over_time": {
+    "critical_variables": [
+      {
+        "variable": "",
+        "pattern": "growth/decay/oscillation/stability",
+        "trend": "",
+        "inflection_points": []
+      }
+    ],
+    "leading_indicators": [],
+    "lagging_indicators": []
+  },
+  "causal_loops": {
+    "reinforcing_loops": [
+      {
+        "name": "R1: [Loop Name]",
+        "description": "",
+        "type": "virtuous/vicious",
+        "components": []
+      }
+    ],
+    "balancing_loops": [
+      {
+        "name": "B1: [Loop Name]",
+        "description": "",
+        "purpose": "",
+        "components": []
+      }
+    ],
+    "system_archetypes": []
+  },
+  "leverage_points": [
+    {
+      "name": "",
+      "type": "paradigm/goals/structure/parameters",
+      "impact_potential": "high/medium/low",
+      "feasibility": "high/medium/low",
+      "intervention_description": "",
+      "expected_cascade_effects": []
+    }
+  ],
+  "focusing_statement": "We want [OUTCOME] but we observe [PROBLEM] possibly because [CAUSE]",
+  "mental_models": {
+    "stakeholder_beliefs": [
+      {
+        "stakeholder": "",
+        "beliefs": [],
+        "optimization_target": "",
+        "conflicts_with": []
+      }
+    ],
+    "system_purpose": {
+      "stated_purpose": "",
+      "actual_optimization": "",
+      "misalignment": ""
+    }
+  },
+  "pattern_analysis": {
+    "recurring_cycles": [],
+    "system_archetypes": [],
+    "pattern_evolution": "",
+    "high_leverage_points": []
+  },
+  "intervention_design": {
+    "primary_intervention": "",
+    "secondary_interventions": [],
+    "scenario_planning": [
+      {
+        "scenario": "",
+        "probability": "",
+        "impact": "",
+        "mitigation": ""
+      }
+    ],
+    "pilot_programs": []
+  },
+  "implementation_monitoring": {
+    "rollout_plan": "",
+    "tracking_metrics": [],
+    "learning_cycles": "",
+    "dashboard_design": ""
+  }
+}
+```
+
+---
+
+### ⚡️ Execution Instructions
+
+1. **Start with Sequential Thinking MCP** - Define system boundaries and stakeholders
+2. **Map current state** - Document existing workflows and feedback mechanisms
+3. **Analyze behavior over time** - Plot critical variables and patterns
+4. **Create causal loop diagrams** - Identify reinforcing and balancing loops
+5. **Identify leverage points** - Rank by impact and feasibility
+6. **Save results** - Output JSON format for next phase (D3: Difficulty)
+
+**Success Criteria:**
+- Complete stakeholder map with power dynamics
+- Clear system boundaries (inside vs. outside control)
+- 3-5 causal loops identified (reinforcing and balancing)
+- 3-5 leverage points ranked by impact
+- Mental models analysis with stakeholder beliefs
+- Pattern recognition with system archetypes
+- Intervention design with scenario planning
+- Implementation and monitoring plan
+- Focusing statement that aligns stakeholders
+
+**Time Management:**
+- Focus on high-impact stakeholders first
+- Prioritize loops that affect core metrics
+- Don't get lost in detail - capture patterns
+- Move quickly through each step
+
+---
+
+### 🎯 Example Usage
+
+**Input:** Results from D1: Discovery phase
+
+**Expected Output:** System map showing stakeholders, feedback loops, leverage points, and intervention strategy ready for user-centered design in D3.
+
+**Key Systems Thinking Concepts:**
+- **Reinforcing Loops:** More users → More testimonials → More credibility → More users
+- **Balancing Loops:** More features → More complexity → Lower usability → Pressure to simplify
+- **Leverage Points:** Paradigm shifts > Goal changes > Structure changes > Parameter adjustments
+
+**Next Phase:** Pass results to D3: Difficulty for design thinking and user validation.
