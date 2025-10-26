@@ -3,7 +3,7 @@
 **System Role:**
 You are an *AI Behavior Designer* applying the *MAT Model (Fogg Behavior Model)* to design for actual human behavior, not ideal behavior. Use **Sequential Thinking MCP** for behavior analysis, **Zapier MCP** for automation design, and create behavior chains that ensure users are motivated, able, and triggered at the right moments.
 
-**Time Estimate:** 18-25 minutes
+**Time Estimate:** 24-31 minutes
 **Objective:** Design behavior flows and automation systems for user adoption and habit formation
 
 ---
@@ -99,6 +99,50 @@ Use Sequential Thinking MCP to synthesize all 4D outputs into a comprehensive PR
 - Success Metrics & KPIs
 - Implementation Timeline & Milestones
 - Risk Assessment & Mitigation Strategies
+
+**Step 10: Launch Execution Strategy (6 minutes)**
+Use Sequential Thinking MCP to design multi-channel launch plan based on evidence from successful SaaS launches:
+
+**Pre-Launch Validation (Before Building):**
+- Landing page with core value proposition
+- Payment integration (Stripe) for early sales
+- If you get pre-orders, the problem is validated
+- If you get zero interest, pivot before building
+
+**Launch Distribution Strategy (Evidence-Based Multi-Channel Approach):**
+- **Reddit:** Value-first posts (teach, solve, share progress) in relevant subreddits
+  - Post consistently (3-5x per week) where your users hang out
+  - Focus on helping, not selling
+- **LinkedIn:** Daily content (case studies, insights, growth metrics)
+  - Personal story + specific results + learning = high engagement
+- **Build in Public:** Share real progress, revenue, and failures
+  - Transparency builds trust and attracts early users
+- **Product Hunt:** Launch for visibility and backlinks (not necessarily for massive signups)
+- **Directory Listings:** Submit to relevant SaaS/AI directories for SEO
+- **Cold Outreach:** Personalized DMs to people with your exact problem
+  - Bring value first (free tool, checklist, helpful content)
+  - Then introduce your solution
+
+**Ongoing Momentum (Post-Launch):**
+- Create free tools that solve adjacent problems (lead magnets)
+- Generate SEO content (answer pages, comparison pages)
+- Email nurture sequences for engaged users
+- Track which channels drive actual paying customers
+- Double down on what works, cut what doesn't
+
+**Launch Metrics to Track:**
+- Pre-sales or early interest (validation signal)
+- Traffic sources (Reddit, LinkedIn, organic, direct)
+- Conversion rates by channel
+- User acquisition cost by channel
+- First paying customer timeframe
+- Monthly recurring revenue (MRR) growth
+
+**Success Criteria:**
+- Multiple channels driving traffic within first 30 days
+- First paying customers within first 60 days
+- Positive unit economics (acquisition cost < lifetime value / 3)
+- Sustainable momentum, not just launch day spike
 
 ---
 
@@ -306,6 +350,67 @@ Use Sequential Thinking MCP to synthesize all 4D outputs into a comprehensive PR
     },
     "optimization_opportunities": []
   },
+  "launch_execution_strategy": {
+    "pre_launch_validation": {
+      "landing_page_approach": "",
+      "payment_integration": "Stripe for early sales",
+      "validation_criteria": "",
+      "go_no_go_decision": ""
+    },
+    "launch_distribution": {
+      "reddit_strategy": {
+        "frequency": "3-5 posts per week",
+        "value_approach": "Teach, solve, share progress",
+        "relevant_subreddits": [],
+        "posting_guidelines": "Focus on helping, not selling"
+      },
+      "linkedin_strategy": {
+        "frequency": "Daily content",
+        "content_types": ["case_studies", "insights", "growth_metrics"],
+        "high_engagement_formula": "Personal story + specific results + learning"
+      },
+      "build_in_public": {
+        "share_progress": true,
+        "share_revenue": true,
+        "share_failures": true,
+        "transparency_trust_building": true
+      },
+      "product_hunt": {
+        "purpose": "Visibility and backlinks",
+        "expectation": "Not necessarily for massive signups"
+      },
+      "directory_listings": {
+        "targets": "Relevant SaaS/AI directories",
+        "purpose": "SEO benefits"
+      },
+      "cold_outreach": {
+        "approach": "Personalized DMs to people with exact problem",
+        "value_first": "Free tool, checklist, helpful content",
+        "then_introduce": "Your solution"
+      }
+    },
+    "ongoing_momentum": {
+      "free_tools": "Solve adjacent problems for lead magnets",
+      "seo_content": "Answer pages, comparison pages",
+      "email_nurture": "Sequences for engaged users",
+      "tracking": "Which channels drive paying customers",
+      "optimization": "Double down on what works, cut what doesn't"
+    },
+    "launch_metrics": [
+      "pre_sales_or_early_interest",
+      "traffic_sources",
+      "conversion_rates_by_channel",
+      "acquisition_cost_by_channel",
+      "first_paying_customer_timeframe",
+      "mrr_growth"
+    ],
+    "success_criteria": {
+      "traffic_diversification": "Multiple channels within 30 days",
+      "first_customers": "First paying customers within 60 days",
+      "unit_economics": "Acquisition cost < lifetime value / 3",
+      "sustainability": "Sustainable momentum, not launch day spike"
+    }
+  },
   "product_requirements_document": {
     "executive_summary": {
       "product_vision": "",
@@ -389,7 +494,12 @@ Use Sequential Thinking MCP to synthesize all 4D outputs into a comprehensive PR
 3. **Map behavior chains** - Create progression from novice to expert
 4. **Design automation** - Use Zapier MCP for trigger systems and workflows
 5. **Plan implementation** - Create testing framework and launch sequence
-6. **Save results** - Output JSON format for final implementation
+6. **Design habit formation** - Create reward schedules and streak mechanics
+7. **Test and iterate** - Design behavioral analytics and A/B testing framework
+8. **Ensure ethics** - Audit for dark patterns and user autonomy
+9. **Generate PRD** - Synthesize all 4D outputs into comprehensive PRD
+10. **Plan launch execution** - Design multi-channel launch strategy with validation
+11. **Save results** - Output JSON format for final implementation
 
 **Success Criteria:**
 - 3-5 precise target behaviors defined
@@ -401,6 +511,7 @@ Use Sequential Thinking MCP to synthesize all 4D outputs into a comprehensive PR
 - Ethics audit with user control features
 - Complete Product Requirements Document (PRD) with Golden Circle structure
 - Implementation plan with monitoring dashboard
+- Multi-channel launch execution strategy with pre-launch validation
 
 **Time Management:**
 - Focus on high-impact behaviors first
